@@ -1,0 +1,97 @@
+.box-1{
+    height: 100px;
+    width: 300px;
+    background-color: #bbbabb;
+}
+.box-1 p{
+    height: 75%;
+    width: 75%;
+    background-color: cyan;
+}
+.box-2{
+    height: 200px;
+    width: 400px;
+    background-color: aquamarine;
+}
+.box-2 h2 {
+    width: 25%;
+    background-color: burlywood;
+}
+.box-2 p {
+    width: 50%;
+    background-color: blueviolet;
+}
+
+td{
+    background-color:cadetblue ;
+}
+td.deskripsi {
+    min-width: 450px;
+    max-width: 500px;
+    background-color: orange;
+}
+/* overflow */
+
+h2,h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: dodgerblue;
+}
+p.satu{
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+}
+p.dua {
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+}
+
+/* border, padding, margin */
+div.box-4 {
+    width: fit-content;
+    height: fit-content;
+    background-color:gainsboro;
+    font-size: 30px;
+
+    /* margin */
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+    /* padding */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    /* border */
+    border: 4px solid black;
+  
+}
+p.helo b{
+    font-family: 'Arial';
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 4px solid papayawhip;
+}
+p.helo{
+    background-color: coral;
+    width: fit-content;
+
+    /* padding */
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    /* margin */
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    /* border */
+    border: 4px solid pink;
+    
+
+}
