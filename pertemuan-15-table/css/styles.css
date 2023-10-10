@@ -1,0 +1,25 @@
+body {
+    font-family: verdana;
+    color: #223311;
+}
+table{
+    width: 600px;
+    /* border-spacing: 10px; */
+    border-collapse: collapse;
+}
+th,td{
+    padding: 7px 10px 10px 10px;
+}
+
+th{
+    border-top: 1px solid darkorange;
+    border-bottom: 2px solid black;
+}
+
+tr.genap{
+    background-color: aliceblue ;
+}
+
+tr:hover{
+    background-color: aquamarine;
+}
